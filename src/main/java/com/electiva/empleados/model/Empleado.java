@@ -17,7 +17,6 @@ public class Empleado {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
     private String nombre;
     private String cc;
     private String cargo;

@@ -10,5 +10,5 @@ import org.mapstruct.Mapping;
 public interface EmpleadoMapper {
 
     @Mapping(target = "id", ignore = true)
-    Empleado createEmpleadoDTO(CrearEmpleadoDTO crearEmpleadoDTO);
+    Empleado createEmpleadoDTO(CrearEmpleadoDTO crearEmpleadoDTO); //Pasa de ser DTO a Entidad
 }
